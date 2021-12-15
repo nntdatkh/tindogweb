@@ -34,7 +34,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -65,8 +65,10 @@ p {
 /* Title image */
 
 .title-img {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 
 
@@ -79,6 +81,8 @@ p {
 
 #features {
     padding: 7% 15%;
+    background-color: #ffffff;
+    position: relative;
 }
 
 .icon:hover {
@@ -114,4 +118,15 @@ p {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
 }
