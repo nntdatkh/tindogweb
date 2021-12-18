@@ -24,7 +24,7 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
@@ -129,4 +129,38 @@ p {
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+
+@media (max-width: 1024px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+    }
+}
+
+/* Call to Action  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #ffffff;
+    padding: 4% 10%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.fa-footer {
+    padding: 1%;
 }
