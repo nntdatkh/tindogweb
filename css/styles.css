@@ -150,7 +150,12 @@ p {
     background-color: #ff4c68;
     text-align: center;
     color: #ffffff;
-    padding: 4% 10%;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    width: 65%;
+    margin: 0 auto;
 }
 
 /* Footer */
@@ -161,6 +166,6 @@ p {
     padding: 3% 10%;
 }
 
-.fa-footer {
-    padding: 1%;
+.social-icon {
+    margin: 1%;
 }
